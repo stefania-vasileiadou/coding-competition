@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(255, 251, 241);
+}
+h1{
+    text-align:center;
+    font-family: Avenir;
+    margin-top: 35px;
+    font-weight: 550;
+}
+p.navbar-brand{
+    margin: 0 auto;
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+div.stefania{
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+div.melina{
+    float: right;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+div.card-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+footer{
+    text-align: left;
+    margin-top: 50px;
+    max-height: 300px;
+    font-size: 15px;
+    background-color: rgb(248, 249, 250);
+    font-family: Avenir;
+    line-height: 17px;
+    padding-left: 20px;
+    opacity:0.7;
+}
+p.company{
+    font-size: 10px;
+}
+div.row{
+    float: right;
+    margin-bottom: 10px;
+}
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+.table {
+	display: table;
+	margin: 0 auto;
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 7px;
+}
+ul#horizontal-list li {
+	display: inline;
+}
+.form-container{
+    max-width: 700px;
+    margin: 50px auto;
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 30px;
+}
+a{
+    color: rgb(48 166 74);
+}
